@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.com.bsfit</groupId>
+  <artifactId>java-core</artifactId>
+  <packaging>pom</packaging>
+  <name>Financial Risk Management System Extra</name>
+  <modules>
+    <!--<module>frms-policy</module>-->
+    <!--<module>frms-mgr</module>-->
+    <module>frms-mgr-mybatis</module>
+    <!--<module>frms-report</module>-->
+    <module>frms-pay-integration</module>
+    <!--<module>frms-scanner</module>-->
+    <!--<module>frms-netease-client</module>-->
+    <!--<module>frms-report-task</module>-->
+  </modules>
+  <properties>
+    <spring.version>3.2.9.RELEASE</spring.version>
+    <drools.version>5.6.0.Final</drools.version>
+    <resteasy.version>3.0.8.Final</resteasy.version>
+    <httpclient.version>4.3.4</httpclient.version>
+    <slf4j.version>1.7.7</slf4j.version>
+    <log4j.version>1.2.17</log4j.version>
+    <spring.security.version>3.2.3.RELEASE</spring.security.version>
+    <memcached.version>3.0.2</memcached.version>
+    <mybatis.spring.version>1.2.2</mybatis.spring.version>
+    <hornetq.version>2.3.18.Final</hornetq.version>
+    <mybatis.version>3.2.7</mybatis.version>
+    <bonecp.version>0.8.0.RELEASE</bonecp.version>
+    <spring.mongodb.version>1.3.3.RELEASE</spring.mongodb.version>
+  </properties>
+  <version>3.0.0-AIXUEDAI</version>
+
+  <distributionManagement>
+    <repository>
+      <id>ext-release-local</id>
+      <name>ext-release-local</name>
+      <url>http://maven:8081/artifactory/ext-release-local/</url>
+    </repository>
+    <snapshotRepository>
+          <id>ext-snapshot-local</id>
+          <name>ext-snapshot-local</name>
+          <url>http://maven:8081/artifactory/ext-snapshot-local/</url>
+     </snapshotRepository>
+  </distributionManagement>
+  <scm>
+    <url>ssh:https://github.com/luyonglx/luyong_java_core.git</url>
+    <connection>scm:git:https://github.com/luyonglx/luyong_java_core.git</connection>
+  </scm>
+</project>
