@@ -1,9 +1,0 @@
-* text=auto
-*.java text
-*.xml text
-*.js  text
-*.html text
-*.coffee text
-*.css text
-*.jpg binary
-*.png binary
