@@ -8,7 +8,7 @@
   <modules>
     <!--<module>frms-policy</module>-->
     <!--<module>frms-mgr</module>-->
-    <module>frms-mgr-mybatis</module>
+    <module>frms-mgr-mybat</module>
     <!--<module>frms-report</module>-->
     <module>frms-pay-integration</module>
     <!--<module>frms-scanner</module>-->
