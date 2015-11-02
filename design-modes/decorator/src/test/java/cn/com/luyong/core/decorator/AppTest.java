@@ -1,7 +1,7 @@
 package cn.com.luyong.core.decorator;
 
-import junit.framework.Test;
 import cn.com.luyong.core.decorator.impl.Monkey;
+import cn.com.luyong.core.decorator.impl.SuperMonkey;
 
 /**
  * Unit test for simple App.

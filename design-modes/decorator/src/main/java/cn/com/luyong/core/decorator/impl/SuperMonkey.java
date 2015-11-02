@@ -1,6 +1,6 @@
-package cn.com.luyong.core.decorator;
+package cn.com.luyong.core.decorator.impl;
 
-import cn.com.luyong.core.decorator.impl.Monkey;
+import cn.com.luyong.core.decorator.Animal;
 
 public class SuperMonkey implements Animal{
 
